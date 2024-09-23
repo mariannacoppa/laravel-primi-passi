@@ -14,20 +14,15 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    // $data = [
-    //     'message' => 'Hello world to Laravel',
-    //     'sub_title' => 'This is my first work with Laravel'
-    // ];
-    // return view('home', $data);
     $message = 'Hello world to Laravel';
     $sub_title = 'This is my first work with Laravel';
     return view('home', compact('message', 'sub_title'));
-});
+})->name('homepage');
 
 Route::get('/about-us', function(){
     return view('about_us');
-});
+})->name('about-us');
 
 Route::get('/contacts', function(){
     return view('contacts');
-});
+})->name('contacts');

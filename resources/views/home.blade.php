@@ -16,9 +16,9 @@
             <div class="row">
                 <div class="col-12">
                     <ul class="list-unstyled d-flex m-0 justify-content-around">
-                        <li><a class="my-4 py-3 text-decoration-none" href="{{ url('/') }}">Home</a></li>
-                        <li><a class="my-4 py-3 text-decoration-none" href="{{ url('/about-us') }}">About Us</a></li>
-                        <li><a class="my-4 py-3 text-decoration-none" href="{{ url('/contacts') }}">Contacts</a></li>
+                        <li><a class="my-4 py-3 text-decoration-none" href="{{ route('homepage') }}">Home</a></li>
+                        <li><a class="my-4 py-3 text-decoration-none" href="{{ route('about-us') }}">About Us</a></li>
+                        <li><a class="my-4 py-3 text-decoration-none" href="{{ route('contacts') }}">Contacts</a></li>
                     </ul>
                 </div>
             </div>
