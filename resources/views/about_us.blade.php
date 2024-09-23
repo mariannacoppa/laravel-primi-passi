@@ -27,17 +27,9 @@
     <main>
         <div class="container">
             <div class="row">
-                <div class="col-12">
-                    <div class="text-center">
-                        <h1 class="text-success">Hello World!</h1>
-                    </div>
-                </div>
-                <div class="col-12">
-                    {{ $message }}
-                </div>
-                <div class="col-12">
-                    {{ $sub_title }}
-                </div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit voluptatibus reiciendis a doloremque
+                harum, suscipit provident, iure delectus ad cumque sed! Laborum culpa laboriosam voluptate tempore
+                consequuntur suscipit quidem iusto.
             </div>
         </div>
     </main>

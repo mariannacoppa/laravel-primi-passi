@@ -23,3 +23,11 @@ Route::get('/', function () {
     $sub_title = 'This is my first work with Laravel';
     return view('home', compact('message', 'sub_title'));
 });
+
+Route::get('/about-us', function(){
+    return view('about_us');
+});
+
+Route::get('/contacts', function(){
+    return view('contacts');
+});

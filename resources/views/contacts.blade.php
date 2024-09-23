@@ -27,17 +27,16 @@
     <main>
         <div class="container">
             <div class="row">
-                <div class="col-12">
-                    <div class="text-center">
-                        <h1 class="text-success">Hello World!</h1>
-                    </div>
+                <div class="col-12 text-center">
+                    <ul class="list-unstyled">
+                        <li class="mt-3">0123 456 789</li>
+                        <li class="mt-3">via dei Matti, 0, Stranalandia</li>
+                        <li class="mt-3">cosematte@mail.com</li>
+                    </ul>
                 </div>
-                <div class="col-12">
-                    {{ $message }}
-                </div>
-                <div class="col-12">
-                    {{ $sub_title }}
-                </div>
+
+
+
             </div>
         </div>
     </main>
